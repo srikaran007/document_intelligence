@@ -1,0 +1,6 @@
+flask==3.0.3
+flask-cors==4.0.1
+python-dotenv==1.0.1
+# PyMuPDF==1.24.9  # optional, required for PDF extraction on Windows. Removed to avoid install issues in this environment.
+google-genai==0.8.0
+gunicorn==22.0.0

@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# Python virtual environments
+backend/venv/
+backend/.venv/
+backend/env/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files (NEVER commit these)
+backend/.env
+.env
+
+# Temporary upload files
+backend/uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
